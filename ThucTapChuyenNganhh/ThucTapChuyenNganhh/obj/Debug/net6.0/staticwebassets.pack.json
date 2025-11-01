@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ThucTapChuyenNganhh.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ThucTapChuyenNganhh.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\about.png",
+      "PackagePath": "staticwebassets\\img\\about.png"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-1.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-2.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-3.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\overlay-bottom.png",
+      "PackagePath": "staticwebassets\\img\\overlay-bottom.png"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\overlay-top.png",
+      "PackagePath": "staticwebassets\\img\\overlay-top.png"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\service-1.jpg",
+      "PackagePath": "staticwebassets\\img\\service-1.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\service-2.jpg",
+      "PackagePath": "staticwebassets\\img\\service-2.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\service-3.jpg",
+      "PackagePath": "staticwebassets\\img\\service-3.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\service-4.jpg",
+      "PackagePath": "staticwebassets\\img\\service-4.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ThucTapChuyenNganhh.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ThucTapChuyenNganhh.props",
+      "PackagePath": "build\\ThucTapChuyenNganhh.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ThucTapChuyenNganhh.props",
+      "PackagePath": "buildMultiTargeting\\ThucTapChuyenNganhh.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ThucTapChuyenNganhh.props",
+      "PackagePath": "buildTransitive\\ThucTapChuyenNganhh.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
