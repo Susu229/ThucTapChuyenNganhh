@@ -4,15 +4,28 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Koppee Admin - Sản phẩm</title>
-
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/sb-admin.css" rel="stylesheet">
+    <style>
+        .table tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+        .badge {
+            font-size: 0.85rem;
+            padding: 6px 10px;
+            border-radius: 8px;
+        }
+
+        .btn-sm {
+            padding: 5px 8px;
+            border-radius: 6px;
+        }
+    </style>
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
-    <!-- Navbar + Sidebar -->
-    <?php include 'navbar.html'; ?> <!-- (nếu bạn không dùng PHP, copy navbar từ index vào đây) -->
 
     <div class="content-wrapper">
         <div class="container-fluid">
@@ -24,46 +37,55 @@
             <h4 class="mb-3 font-weight-bold">Danh sách sản phẩm</h4>
             <button class="btn btn-primary mb-3"><i class="fa fa-plus"></i> Thêm sản phẩm mới</button>
 
-            <div class="card mb-4">
-                <div class="card-header"><i class="fa fa-coffee"></i> Danh sách sản phẩm hiện có</div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-white font-weight-bold text-primary">
+                    <i class="fa fa-coffee"></i> Danh sách sản phẩm hiện có
+                </div>
+
                 <div class="card-body">
-                    <table class="table table-bordered text-center">
-                        <thead class="thead-light">
-                            <tr>
-                                <th>Mã SP</th>
-                                <th>Tên</th>
-                                <th>Giá</th>
-                                <th>Tình trạng</th>
-                                <th>Thao tác</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>CF011</td>
-                                <td>Vanilla Latte</td>
-                                <td>52,000đ</td>
-                                <td><span class="badge badge-success">Còn hàng</span></td>
-                                <td>
-                                    <button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button>
-                                    <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>CF012</td>
-                                <td>Ice Mocha</td>
-                                <td>49,000đ</td>
-                                <td><span class="badge badge-warning">Sắp hết</span></td>
-                                <td>
-                                    <button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button>
-                                    <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table table-bordered text-center align-middle">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Mã SP</th>
+                                    <th>Tên sản phẩm</th>
+                                    <th>Giá</th>
+                                    <th>Tình trạng</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>CF001</td><td>Espresso</td><td>35,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF002</td><td>Cappuccino</td><td>40,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF003</td><td>Latte</td><td>42,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF004</td><td>Americano</td><td>32,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF005</td><td>Mocha</td><td>45,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF006</td><td>Caramel Macchiato</td><td>48,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF007</td><td>Cold Brew</td><td>50,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF008</td><td>Matcha Latte</td><td>55,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF009</td><td>Affogato</td><td>60,000đ</td><td><span class="badge badge-danger">Hết hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF010</td><td>Hazelnut Coffee</td><td>47,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF011</td><td>Vanilla Latte</td><td>52,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF012</td><td>Ice Mocha</td><td>49,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF013</td><td>Dark Chocolate</td><td>53,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF014</td><td>Irish Coffee</td><td>59,000đ</td><td><span class="badge badge-danger">Hết hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF015</td><td>Caramel Frappe</td><td>58,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF016</td><td>Mocha Frappe</td><td>56,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF017</td><td>Coconut Coffee</td><td>54,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF018</td><td>Honey Latte</td><td>57,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF019</td><td>Mint Mocha</td><td>59,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                <tr><td>CF020</td><td>Hazelnut Frappe</td><td>62,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-        <footer class="sticky-footer"><div class="container text-center"><small>© Koppee Coffee 2025</small></div></footer>
+        <footer class="sticky-footer">
+            <div class="container text-center">
+                <small>© Koppee Coffee 2025</small>
+            </div>
+        </footer>
     </div>
 
     <script src="vendor/jquery/jquery.min.js"></script>
