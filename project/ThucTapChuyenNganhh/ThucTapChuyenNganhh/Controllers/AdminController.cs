@@ -8,37 +8,22 @@ namespace ThucTapChuyenNganhh.Controllers
         {
             return View();
         }
-        public IActionResult Charts()
+        public IActionResult Products()
         {
             return View();
         }
-        public IActionResult Tables()
+        public IActionResult Orders()
         {
             return View();
         }
-        public IActionResult Login()
+        public IActionResult Customers()
         {
             return View();
         }
-        public IActionResult Navbar()
+        public IActionResult Reports()
         {
             return View();
         }
-        public IActionResult Cards()
-        {
-            return View();
-        }
-        public IActionResult Register()
-        {
-            return View();
-        }
-        public IActionResult Forgot_Pw()
-        {
-            return View();
-        }
-        public IActionResult Blank()
-        {
-            return View();
-        }
+        
     }
 }

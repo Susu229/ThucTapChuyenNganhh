@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/aWjb7NUKA2Maenc4v28bC2ngx5vgSvul/T08EdXQUcy9OWqWLhZVN497m150wc6x0PCa+ghwRMJqaQ8LYlw8g==",
+  "dgSpecHash": "ALi+otVLclMyWd42mL7GTIWx5LYYmnbihTWONnq4SFTZP1r4HaRmngttb7bt6qXOaLGW/yiJGtGu2UON2uzjRQ==",
   "success": true,
-  "projectFilePath": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj",
+  "projectFilePath": "D:\\Thực Tập Chuyên Ngành\\project\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rich\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Rich\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

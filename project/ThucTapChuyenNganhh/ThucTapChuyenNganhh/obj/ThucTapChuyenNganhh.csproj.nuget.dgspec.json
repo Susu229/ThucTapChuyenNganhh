@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj": {}
+    "D:\\Thực Tập Chuyên Ngành\\project\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj": {}
   },
   "projects": {
-    "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj": {
+    "D:\\Thực Tập Chuyên Ngành\\project\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj",
+        "projectUniqueName": "D:\\Thực Tập Chuyên Ngành\\project\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj",
         "projectName": "ThucTapChuyenNganhh",
-        "projectPath": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj",
+        "projectPath": "D:\\Thực Tập Chuyên Ngành\\project\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh.csproj",
         "packagesPath": "C:\\Users\\Rich\\.nuget\\packages\\",
-        "outputPath": "D:\\Thực Tập Chuyên Ngành\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\obj\\",
+        "outputPath": "D:\\Thực Tập Chuyên Ngành\\project\\ThucTapChuyenNganhh\\ThucTapChuyenNganhh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rich\\AppData\\Roaming\\NuGet\\NuGet.Config",

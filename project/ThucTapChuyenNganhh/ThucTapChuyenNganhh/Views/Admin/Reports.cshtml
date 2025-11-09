@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Koppee Admin - Báo cáo</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                <li class="breadcrumb-item active">Báo cáo</li>
+            </ol>
+
+            <h4 class="mb-3 font-weight-bold">Báo cáo doanh thu</h4>
+
+            <div class="card mb-4">
+                <div class="card-header"><i class="fa fa-line-chart"></i> Thống kê tháng</div>
+                <div class="card-body">
+                    <canvas id="myChart" height="120"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header"><i class="fa fa-bar-chart"></i> Tổng kết doanh thu</div>
+                <div class="card-body">
+                    <p>💰 Tổng doanh thu tháng 11: <strong>45,200,000đ</strong></p>
+                    <p>🛒 Tổng đơn hàng: <strong>312 đơn</strong></p>
+                    <p>👥 Khách hàng mới: <strong>58</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="sticky-footer"><div class="container text-center"><small>© Koppee Coffee 2025</small></div></footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Th1', 'Th2', 'Th3', 'Th4', 'Th5', 'Th6', 'Th7', 'Th8', 'Th9', 'Th10', 'Th11'],
+                datasets: [{
+                    label: 'Doanh thu (triệu VNĐ)',
+                    data: [30, 35, 32, 38, 45, 42, 50, 48, 52, 60, 57],
+                    backgroundColor: '#3C50E0',
+                    borderRadius: 6
+                }]
+            }
+        });
+    </script>
+</body>
+</html>

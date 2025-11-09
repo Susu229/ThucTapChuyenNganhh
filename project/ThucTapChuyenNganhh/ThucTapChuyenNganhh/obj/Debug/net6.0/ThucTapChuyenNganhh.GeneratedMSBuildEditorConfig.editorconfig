@@ -9,85 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ThucTapChuyenNganhh
 build_property.RootNamespace = ThucTapChuyenNganhh
-build_property.ProjectDir = D:\Thực Tập Chuyên Ngành\ThucTapChuyenNganhh\ThucTapChuyenNganhh\
+build_property.ProjectDir = D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Thực Tập Chuyên Ngành\ThucTapChuyenNganhh\ThucTapChuyenNganhh
+build_property.MSBuildProjectDirectory = D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/About/About.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/About/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Blank.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxhbmsuY3NodG1s
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Cards.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FyZHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Charts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Forgot_Pw.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRm9yZ290X1B3LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Index.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Login.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Navbar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmF2YmFyLmNzaHRtbA==
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXIuY3NodG1s
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Tables.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVwb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/Tables.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGFibGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/_ViewStart.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Admin/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Home/Index.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Home/Privacy.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/Error.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/_AdminLayout.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/_ViewImports.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/_ViewStart.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Thực Tập Chuyên Ngành/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/_Layout.cshtml]
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/wwwroot/admin/customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxhZG1pblxjdXN0b21lcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/wwwroot/admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxhZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/wwwroot/admin/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxhZG1pblxPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/wwwroot/admin/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxhZG1pblxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/wwwroot/admin/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxhZG1pblxSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực Tập Chuyên Ngành/project/ThucTapChuyenNganhh/ThucTapChuyenNganhh/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-11binz4oz7
