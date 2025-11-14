@@ -1,71 +1,54 @@
-﻿/* ==== Dashboard Cards: tone tối nhiều màu ==== */
-.stat.dark {
-    color: #fff;
-    border: none;
-    border-radius: 14px;
-    padding: 1.2rem 1.5rem;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
+﻿.sidebar {
+    position: fixed;
+    left: 0;
+    top: 56px;
+    bottom: 0;
+    width: 220px; 
+    padding-top: 1rem;
+    overflow-y: auto;
+    z-index: 1020;
+    border-right: 1px solid rgba(0,0,0,0.06);
 }
 
-    .stat.dark:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+#sidebarMenu .nav-link {
+    color: #6c757d;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+}
+
+    #sidebarMenu .nav-link:hover,
+    #sidebarMenu .nav-link.active {
+        background: rgba(0,0,0,0.03);
+        color: #333;
     }
 
-    .stat.dark .icon {
-        width: 52px;
-        height: 52px;
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.4rem;
-        background: rgba(255,255,255,0.15);
-        margin-bottom: .6rem;
+.content-area {
+    margin-left: 240px;
+    padding-top: 80px; 
+    padding-bottom: 40px;
+    min-height: calc(100vh - 56px);
+    background: #fff;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+        border-right: none;
     }
 
-    .stat.dark .value {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #fff;
+    .content-area {
+        margin-left: 0;
+        padding-top: 20px;
     }
+}
 
-    .stat.dark .hint {
-        font-size: .9rem;
-        opacity: .85;
-    }
+.sticky-footer {
+    background: transparent;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
 
-    /* Tone màu riêng cho từng card */
-    .stat.dark.coffee {
-        background: linear-gradient(145deg, #2E2E2E, #444);
-    }
-
-        .stat.dark.coffee .icon {
-            background: rgba(255,255,255,0.12);
-            color: #FFB74D; /* cam sáng */
-        }
-
-    .stat.dark.order {
-        background: linear-gradient(145deg, #283593, #3949AB);
-    }
-
-        .stat.dark.order .icon {
-            color: #BBDEFB; /* xanh nhạt */
-        }
-
-    .stat.dark.customer {
-        background: linear-gradient(145deg, #6A1B9A, #8E24AA);
-    }
-
-        .stat.dark.customer .icon {
-            color: #F3E5F5; /* tím sáng */
-        }
-
-    .stat.dark.revenue {
-        background: linear-gradient(145deg, #C2185B, #E91E63);
-    }
-
-        .stat.dark.revenue .icon {
-            color: #FCE4EC; /* hồng sáng */
-        }

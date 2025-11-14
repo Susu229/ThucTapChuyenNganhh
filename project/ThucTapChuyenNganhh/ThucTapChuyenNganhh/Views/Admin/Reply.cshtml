@@ -1,0 +1,28 @@
+﻿@model ThucTapChuyenNganhh.Models.ContactMess
+
+<div class="container mt-4">
+    <h2>📨 Phản hồi tin nhắn</h2>
+
+    <div class="card p-4">
+
+        <p><b>Khách hàng:</b> @Model.Name</p>
+        <p><b>Email:</b> @Model.Email</p>
+        <p><b>Chủ đề:</b> @Model.Subject</p>
+        <p><b>Nội dung khách gửi:</b> @Model.Message</p>
+        <hr />
+
+        <form method="post" asp-action="SendReply" asp-controller="Admin">
+
+            <input type="hidden" name="id" value="@Model.Id" />
+
+            <label><b>Tiêu đề phản hồi</b></label>
+            <input class="form-control" name="replySubject" required />
+
+            <label class="mt-3"><b>Nội dung phản hồi</b></label>
+            <textarea class="form-control" name="replyMessage" rows="6" required></textarea>
+
+            <button class="btn btn-primary mt-3">Gửi phản hồi</button>
+        </form>
+
+    </div>
+</div>

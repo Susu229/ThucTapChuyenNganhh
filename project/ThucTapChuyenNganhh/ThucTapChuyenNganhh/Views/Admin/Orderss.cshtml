@@ -1,0 +1,20 @@
+﻿@model List<ThucTapChuyenNganhh.Models.Product>
+
+<h2>🛒 Danh sách đơn hàng</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Tên SP</th>
+        <th>Giá</th>
+        <th>Trạng thái</th>
+    </tr>
+
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Name</td>
+            <td>@p.Price.ToString("N0") đ</td>
+            <td>@p.Status</td>
+        </tr>
+    }
+</table>

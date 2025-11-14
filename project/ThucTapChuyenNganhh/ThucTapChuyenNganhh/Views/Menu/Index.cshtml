@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "SUSU Coffee - Thực đơn";
+}
+
+<!-- Header -->
+<div class="container-fluid page-header mb-5 position-relative overlay-bottom">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
+         style="min-height: 400px">
+
+        <h1 class="display-4 mb-3 mt-0 text-white text-uppercase">Thực đơn</h1>
+    </div>
+</div>
+
+<style>
+    .menu-img-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .menu-price {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 75px;
+        height: 75px;
+        background: rgba(0,0,0,0.65);
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        backdrop-filter: blur(2px);
+        box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    }
+</style>
+
+<!-- Menu -->
+<div class="container-fluid pt-5">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Giá</h4>
+            <h1 class="display-4 font-weight-bold">Giá tốt – Chất lượng cao</h1>
+        </div>
+
+        <div class="row">
+
+            <!-- HOT COFFEE -->
+            <div class="col-lg-6 mb-5">
+                <h2 class="mb-4 font-weight-bold">Cà phê nóng</h2>
+
+                <div class="menu-item row align-items-center mb-4">
+                    <div class="col-4 col-sm-3">
+                        <div class="menu-img-wrapper">
+                            <img class="w-100 rounded-circle" src="~/img/menu-1.jpg" />
+                            <div class="menu-price">50.000₫</div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Cà phê đen</h4>
+                        <p>Đậm đà – nguyên bản đúng chất Việt.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item row align-items-center mb-4">
+                    <div class="col-4 col-sm-3">
+                        <div class="menu-img-wrapper">
+                            <img class="w-100 rounded-circle" src="~/img/menu-2.jpg" />
+                            <div class="menu-price">65.000₫</div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Cà phê Chocolate</h4>
+                        <p>Kết hợp cacao và cà phê – thơm béo cuốn hút.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item row align-items-center mb-4">
+                    <div class="col-4 col-sm-3">
+                        <div class="menu-img-wrapper">
+                            <img class="w-100 rounded-circle" src="~/img/menu-3.jpg" />
+                            <div class="menu-price">70.000₫</div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Cà phê sữa</h4>
+                        <p>Béo nhẹ, thơm, chuẩn vị truyền thống.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLD COFFEE -->
+            <div class="col-lg-6 mb-5">
+                <h2 class="mb-4 font-weight-bold">Cà phê lạnh</h2>
+
+                <div class="menu-item row align-items-center mb-4">
+                    <div class="col-4 col-sm-3">
+                        <div class="menu-img-wrapper">
+                            <img class="w-100 rounded-circle" src="~/img/menu-1.jpg" />
+                            <div class="menu-price">45.000₫</div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Cà phê đen đá</h4>
+                        <p>Mát lạnh – tỉnh táo tức thì.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item row align-items-center mb-4">
+                    <div class="col-4 col-sm-3">
+                        <div class="menu-img-wrapper">
+                            <img class="w-100 rounded-circle" src="~/img/menu-2.jpg" />
+                            <div class="menu-price">60.000₫</div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Cà phê Chocolate đá</h4>
+                        <p>Hòa quyện giữa cacao và cà phê.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item row align-items-center mb-4">
+                    <div class="col-4 col-sm-3">
+                        <div class="menu-img-wrapper">
+                            <img class="w-100 rounded-circle" src="~/img/menu-3.jpg" />
+                            <div class="menu-price">65.000₫</div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Bạc xỉu đá</h4>
+                        <p>Vị béo ngọt hài hòa với cà phê.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

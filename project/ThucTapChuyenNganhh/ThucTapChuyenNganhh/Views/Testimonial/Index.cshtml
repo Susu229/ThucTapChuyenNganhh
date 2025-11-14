@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Đánh giá - SUSU Coffee";
+}
+<!-- Header -->
+<div class="container-fluid page-header mb-5 position-relative overlay-bottom">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
+         style="min-height: 400px">
+        <h1 class="display-4 mb-3 text-white text-uppercase">Đánh giá</h1>
+    </div>
+</div>
+<script>
+    $(".testimonial-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 800,
+        margin: 30,
+        dots: true,
+        loop: true,
+        items: 1
+    });
+</script>
+
+<style>
+    .contact-box i {
+        font-size: 35px;
+        margin-bottom: 15px;
+        color: var(--primary);
+    }
+
+    .testimonial-item {
+        padding: 30px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+        .testimonial-item p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+</style>
+
+<!-- Testimonial Section -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title text-center">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Đánh giá</h4>
+            <h1 class="display-4">Khách hàng nói gì về SUSU Coffee</h1>
+        </div>
+
+        <div class="owl-carousel testimonial-carousel">
+
+            <!-- REVIEW 1 -->
+            <div class="testimonial-item text-center">
+                <img class="img-fluid mx-auto mb-4 rounded-circle" src="~/img/khach1.jpg"
+                     style="width: 90px; height: 90px; object-fit: cover;">
+                <h4 class="mb-2">Hải Đường</h4>
+                <p class="text-muted">Sinh viên</p>
+                <p class="font-italic">
+                    “Cà phê muối của SUSU là ngon nhất tôi từng uống! Vị mặn nhẹ hòa với cà phê rất vừa phải, cực cuốn.”
+                </p>
+            </div>
+
+            <!-- REVIEW 2 -->
+            <div class="testimonial-item text-center">
+                <img class="img-fluid mx-auto mb-4 rounded-circle" src="~/img/khach2.jpg"
+                     style="width: 90px; height: 90px; object-fit: cover;">
+                <h4 class="mb-2">Nhựt Tân</h4>
+                <p class="text-muted">Nhân viên văn phòng</p>
+                <p class="font-italic">
+                    “Món Freeze Caramel ở đây siêu ngon, béo nhưng không ngấy. Uống là ghiền!”
+                </p>
+            </div>
+
+            <!-- REVIEW 3 -->
+            <div class="testimonial-item text-center">
+                <img class="img-fluid mx-auto mb-4 rounded-circle" src="~/img/khach3.jpg"
+                     style="width: 90px; height: 90px; object-fit: cover;">
+                <h4 class="mb-2">Ngọc Dự</h4>
+                <p class="text-muted">Lập trình viên</p>
+                <p class="font-italic">
+                    “Không gian quán rất chill, cà phê truyền thống pha chuẩn vị. Rất thích món Bạc xỉu ở đây.”
+                </p>
+            </div>
+
+            <!-- REVIEW 4 -->
+            <div class="testimonial-item text-center">
+                <img class="img-fluid mx-auto mb-4 rounded-circle" src="~/img/khach4.jpg"
+                     style="width: 90px; height: 90px; object-fit: cover;">
+                <h4 class="mb-2">Thanh Đào</h4>
+                <p class="text-muted">Khách quen</p>
+                <p class="font-italic">
+                    “Trà đào cam sả của SUSU phải nói là đỉnh! Ngon hơn nhiều thương hiệu lớn luôn.”
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>

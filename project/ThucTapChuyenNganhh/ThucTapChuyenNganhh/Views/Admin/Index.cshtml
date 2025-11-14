@@ -124,53 +124,22 @@
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" id="mainNav">
-        <a class="navbar-brand font-weight-bold text-primary" href="index.html">☕ Koppee Admin</a>
+        <a class="navbar-brand font-weight-bold text-primary" href="index.html">☕ Susu Admin</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <!-- Sidebar -->
-            <ul class="navbar-nav navbar-sidenav bg-light" id="exampleAccordion">
-                <li class="nav-item">
-                    <a class="nav-link active" asp-controller="Admin" asp-action="Index">
-                        <i class="fa fa-fw fa-dashboard"></i>
-                        <span class="nav-link-text">Dashboard</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Admin" asp-action="Products">
-                        <i class="fa fa-fw fa-coffee"></i>
-                        <span class="nav-link-text">Sản phẩm</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Admin" asp-action="Orders">
-                        <i class="fa fa-fw fa-shopping-cart"></i>
-                        <span class="nav-link-text">Đơn hàng</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Admin" asp-action="Customers">
-                        <i class="fa fa-fw fa-users"></i>
-                        <span class="nav-link-text">Khách hàng</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Admin" asp-action="Reports">
-                        <i class="fa fa-fw fa-bar-chart"></i>
-                        <span class="nav-link-text">Báo cáo</span>
-                    </a>
-                </li>
-            </ul>
-
+           
             <!-- Logout -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">
-                        <i class="fa fa-fw fa-home"></i> Trang Koppee
+                    <a class="nav-link"
+                       asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-fw fa-home"></i> Trang Susu
                     </a>
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="modal" data-target="#logoutModal">
@@ -186,57 +155,51 @@
         <div class="container-fluid">
 
             <!-- Breadcrumb -->
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                <li class="breadcrumb-item active">Tổng quan</li>
-            </ol>
-
             <div class="dashboard-title">Tổng quan hệ thống</div>
 
             <!-- 4 Thẻ thống kê -->
             <div class="row mb-4">
                 <div class="col-xl-3 col-md-6 mb-3">
-                    <div class="card-stat stat-blue">
+                    <a href="/Admin/Messages" class="card-stat stat-blue" style="text-decoration:none;">
                         <div class="icon"><i class="fa fa-envelope"></i></div>
                         <div class="details">
-                            <h5>26 Tin nhắn mới</h5>
-                            <span>+12% so với hôm qua</span>
+                            <h5>@ViewBag.TotalMessages Tin nhắn mới</h5>
+                            <span>@(ViewBag.TotalMessages > 0 ? "+100% so với hôm qua" : "0% (chưa có tin mới)")</span>
+
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-xl-3 col-md-6 mb-3">
-                    <div class="card-stat stat-yellow">
+                    <a href="/Admin/Tasks" class="card-stat stat-yellow" style="text-decoration:none;">
                         <div class="icon"><i class="fa fa-tasks"></i></div>
                         <div class="details">
                             <h5>11 Nhiệm vụ mới</h5>
                             <span>Đang tiến hành</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-xl-3 col-md-6 mb-3">
-                    <div class="card-stat stat-green">
+                    <a href="/Admin/Orders" class="card-stat stat-green" style="text-decoration:none;">
                         <div class="icon"><i class="fa fa-shopping-cart"></i></div>
                         <div class="details">
                             <h5>123 Đơn hàng</h5>
                             <span>+5% trong tuần</span>
                         </div>
-                    </div>
+                    </a>
+
                 </div>
 
                 <div class="col-xl-3 col-md-6 mb-3">
-                    <div class="card-stat stat-red">
+                    <a href="/Admin/Tickets" class="card-stat stat-red" style="text-decoration:none;">
                         <div class="icon"><i class="fa fa-life-ring"></i></div>
                         <div class="details">
-                            <h5>13 Phiếu hỗ trợ</h5>
-                            <span>Giải quyết 8/13</span>
+                            <h5>@ViewBag.TotalTickets Phiếu hỗ trợ</h5>                            <span>Giải quyết 8/13</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
-
-            <!-- Bảng sản phẩm -->
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fa fa-table"></i> Danh sách sản phẩm
@@ -250,37 +213,165 @@
                                     <th>Tên sản phẩm</th>
                                     <th>Giá</th>
                                     <th>Trạng thái</th>
-                                    <th>Thao tác</th>
+                                    <th>Sửa/Xóa</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td>CF001</td><td>Espresso</td><td>35,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF002</td><td>Cappuccino</td><td>40,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF003</td><td>Latte</td><td>42,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF004</td><td>Americano</td><td>32,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF005</td><td>Mocha</td><td>45,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF006</td><td>Caramel Macchiato</td><td>48,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF007</td><td>Cold Brew</td><td>50,000đ</td><td><span class="badge badge-warning">Sắp hết</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF008</td><td>Matcha Latte</td><td>55,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF009</td><td>Affogato</td><td>60,000đ</td><td><span class="badge badge-danger">Hết hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF010</td><td>Hazelnut Coffee</td><td>47,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
-                                <tr><td>CF011</td><td>Vanilla Latte</td><td>52,000đ</td><td><span class="badge badge-success">Còn hàng</span></td><td><button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button> <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td></tr>
+                                @foreach (var p in Model)
+                                {
+                                    <tr>
+                                        <td>@p.Code</td>
+                                        <td>@p.Name</td>
+                                        <td>@p.Price.ToString("N0") đ</td>
+                                        <td>
+                                            @if (p.Status == "Còn hàng")
+                                            {
+                                                <span class="badge badge-success">Còn hàng</span>
+                                            }
+                                            else if (p.Status == "Sắp hết")
+                                            {
+                                                <span class="badge badge-warning text-dark">Sắp hết</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge badge-danger">Hết hàng</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button>
+                                        </td>
+                                    </tr>
+                                }
                             </tbody>
-
                         </table>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Footer -->
-        <footer class="sticky-footer">
-            <div class="container">
-                <div class="text-center">
-                    <small>© Koppee Coffee 2025</small>
+        </div>
+        <!-- BẢNG DOANH THU -->
+        <div class="card mb-4 mt-4 shadow-sm">
+            <div class="card-header bg-white font-weight-bold text-primary">
+                <i class="fa fa-line-chart"></i> Báo cáo doanh thu
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center align-middle">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Ngày</th>
+                                <th>Sản phẩm bán chạy</th>
+                                <th>Số lượng</th>
+                                <th>Tổng doanh thu</th>
+                                <th>Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>09/11/2025</td>
+                                <td>Espresso</td>
+                                <td>125</td>
+                                <td>4,375,000đ</td>
+                                <td><span class="badge badge-success">Tăng 8%</span></td>
+                            </tr>
+                            <tr>
+                                <td>08/11/2025</td>
+                                <td>Latte</td>
+                                <td>110</td>
+                                <td>4,200,000đ</td>
+                                <td><span class="badge badge-success">Tăng 5%</span></td>
+                            </tr>
+                            <tr>
+                                <td>07/11/2025</td>
+                                <td>Cappuccino</td>
+                                <td>95</td>
+                                <td>3,850,000đ</td>
+                                <td><span class="badge badge-warning">Ổn định</span></td>
+                            </tr>
+                            <tr>
+                                <td>06/11/2025</td>
+                                <td>Americano</td>
+                                <td>80</td>
+                                <td>2,900,000đ</td>
+                                <td><span class="badge badge-danger">Giảm 4%</span></td>
+                            </tr>
+                            <tr>
+                                <td>05/11/2025</td>
+                                <td>Mocha</td>
+                                <td>105</td>
+                                <td>4,725,000đ</td>
+                                <td><span class="badge badge-success">Tăng 6%</span></td>
+                            </tr>
+                            <tr>
+                                <td>04/11/2025</td>
+                                <td>Matcha Latte</td>
+                                <td>72</td>
+                                <td>3,960,000đ</td>
+                                <td><span class="badge badge-danger">Giảm 2%</span></td>
+                            </tr>
+                            <tr>
+                                <td>03/11/2025</td>
+                                <td>Caramel Macchiato</td>
+                                <td>118</td>
+                                <td>5,424,000đ</td>
+                                <td><span class="badge badge-success">Tăng 10%</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </footer>
+        </div>
+       
+        <div class="card mb-4 mt-4 shadow-sm">
+            <div class="card-header bg-white font-weight-bold text-primary d-flex align-items-center">
+                <i class="fa fa-line-chart mr-2"></i> Báo cáo doanh thu theo tháng
+            </div>
+            <div class="card-body">
+                <div class="chart-container" style="position: relative; height:300px; width:100%;">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            const ctx = document.getElementById('myChart');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Th1', 'Th2', 'Th3', 'Th4', 'Th5', 'Th6', 'Th7', 'Th8', 'Th9', 'Th10', 'Th11'],
+                    datasets: [{
+                        label: 'Doanh thu (triệu VNĐ)',
+                        data: [30, 35, 32, 38, 45, 42, 50, 48, 52, 60, 57],
+                        backgroundColor: '#3C50E0',
+                        borderRadius: 6
+                    }]
+                }
+            });
+        </script>
+
+        <div class="card mb-5 shadow-sm">
+            <div class="card-header bg-white font-weight-bold text-primary d-flex align-items-center">
+                <i class="fa fa-bar-chart mr-2"></i> Tổng kết doanh thu
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-md-4 border-right">
+                        <p>💰 <strong>Tổng doanh thu tháng 11</strong></p>
+                        <h5 class="text-success font-weight-bold">45,200,000đ</h5>
+                    </div>
+                    <div class="col-md-4 border-right">
+                        <p>🛒 <strong>Tổng đơn hàng</strong></p>
+                        <h5 class="text-primary font-weight-bold">312 đơn</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <p>👥 <strong>Khách hàng mới</strong></p>
+                        <h5 class="text-warning font-weight-bold">58</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Scripts -->

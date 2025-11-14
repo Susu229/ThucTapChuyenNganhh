@@ -318,14 +318,12 @@ D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\b
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\NuGet.ProjectModel.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\NuGet.Protocol.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\NuGet.Versioning.dll
-D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Collections.Immutable.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Composition.Convention.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Composition.Hosting.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Composition.Runtime.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Composition.TypedParts.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.Formats.Asn1.dll
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -510,3 +508,5 @@ D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\o
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\obj\Debug\net6.0\ThucTapChuyenNganhh.pdb
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\obj\Debug\net6.0\ThucTapChuyenNganhh.genruntimeconfig.cache
 D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\obj\Debug\net6.0\ref\ThucTapChuyenNganhh.dll
+D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Thực Tập Chuyên Ngành\project\ThucTapChuyenNganhh\ThucTapChuyenNganhh\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
