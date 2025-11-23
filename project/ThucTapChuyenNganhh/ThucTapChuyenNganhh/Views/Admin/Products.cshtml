@@ -48,12 +48,12 @@
             <!-- Form thêm sản phẩm -->
             <div class="form-section">
                 <h5 class="text-primary mb-3"><i class="fa fa-plus"></i> Thêm sản phẩm mới</h5>
-                <form asp-action="CreateProduct" method="post">
+
+                <form method="post">
                     <div class="row">
                         <div class="col-md-3">
                             <label class="font-weight-bold">Mã sản phẩm</label>
                             <input name="Code" class="form-control" required />
-                            @Html.ValidationMessage("Code", "", new { @class = "text-danger small" })
                         </div>
                         <div class="col-md-3">
                             <label class="font-weight-bold">Tên sản phẩm</label>
@@ -72,32 +72,22 @@
                             </select>
                         </div>
                     </div>
-                    <div class="mt-3">
-                        <button type="submit" class="btn btn-success">
-                            <i class="fa fa-check"></i> Lưu
-                        </button>
-                    </div>
+
+                    <button type="submit" class="btn btn-success mt-3">
+                        <i class="fa fa-check"></i> Lưu
+                    </button>
                 </form>
             </div>
 
-            <!-- Thông báo -->
-            @if (ViewBag.Success != null)
-            {
-                <div class="alert alert-success">@ViewBag.Success</div>
-            }
-            @if (ViewBag.Error != null)
-            {
-                <div class="alert alert-danger">@ViewBag.Error</div>
-            }
-
-            <!-- Bảng sản phẩm -->
             <div class="card mb-4 shadow-sm">
                 <div class="card-header bg-white font-weight-bold text-primary">
                     <i class="fa fa-coffee"></i> Danh sách sản phẩm hiện có
                 </div>
+
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-bordered text-center align-middle" id="dataTable" width="100%" cellspacing="0">
+
+                        <table class="table table-bordered text-center align-middle">
                             <thead class="thead-light">
                                 <tr>
                                     <th>ID</th>
@@ -108,110 +98,69 @@
                                     <th>Sửa / Xóa</th>
                                 </tr>
                             </thead>
+
                             <tbody>
-                                @foreach (var item in Model)
-                                {
-                                    <tr>
-                                        <td>@item.Id</td>
-                                        <td>@item.Code</td>
-                                        <td>@item.Name</td>
-                                        <td>@item.Price.ToString("N0") đ</td>
-                                        <td>
-                                            @if (item.Status == "Còn hàng")
-                                            {
-                                                <span class="badge badge-success">Còn hàng</span>
-                                            }
-                                            else if (item.Status == "Sắp hết")
-                                            {
-                                                <span class="badge badge-warning text-dark">Sắp hết</span>
-                                            }
-                                            else
-                                            {
-                                                <span class="badge badge-danger">Hết hàng</span>
-                                            }
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-sm btn-primary btn-edit" data-id="@item.Id">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button class="btn btn-sm btn-danger btn-delete"
-                                                    data-id="@item.Id"
-                                                    data-name="@item.Name"
-                                                    data-price="@item.Price.ToString("N0")"
-                                                    data-status="@item.Status">
-                                                <i class="fa fa-trash"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                }
+                                <tr>
+                                    <td>1</td>
+                                    <td>CF001</td>
+                                    <td>Espresso</td>
+                                    <td>35.000 đ</td>
+                                    <td><span class="badge badge-success">Còn hàng</span></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>CF002</td>
+                                    <td>Latte</td>
+                                    <td>42.000 đ</td>
+                                    <td><span class="badge badge-warning text-dark">Sắp hết</span></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>CF003</td>
+                                    <td>Mocha</td>
+                                    <td>45.000 đ</td>
+                                    <td><span class="badge badge-danger">Hết hàng</span></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary">
+                                            <i class="fa fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
                             </tbody>
                         </table>
+
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Footer -->
         <footer class="sticky-footer">
             <div class="container text-center">
                 <small>© Koppee Coffee 2025</small>
             </div>
         </footer>
     </div>
-
-    <!-- Scripts -->
-    <script src="~/vendor/jquery/jquery.min.js"></script>
-    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <script>
-        $(document).ready(function () {
-            $(".btn-edit").click(function () {
-                var id = $(this).data("id");
-                $.get("/Admin/EditProduct/" + id, function (data) {
-                    $("#editModal .modal-content").html(data);
-                    $("#editModal").modal("show");
-                });
-            });
-
-            $(".btn-delete").click(function () {
-                var id = $(this).data("id");
-                var name = $(this).data("name");
-                var price = $(this).data("price");
-                var status = $(this).data("status");
-
-                var htmlText =
-                    "<div style='font-size:16px; text-align:center; margin-top:10px;'>" +
-                    "Bạn có chắc chắn muốn xóa sản phẩm <b style='color:#111;'>" + name + "</b>?" +
-                    "<br><br><b>Mã sản phẩm (ID):</b> " + id +
-                    "<br><b>Giá:</b> " + price + " đ" +
-                    "<br><b>Trạng thái:</b> " + status +
-                    "</div>";
-
-                Swal.fire({
-                    title: "Xác nhận xóa?",
-                    html: htmlText,
-                    icon: "warning",
-                    showCancelButton: true,
-                    confirmButtonColor: "#d33",
-                    cancelButtonColor: "#3085d6",
-                    confirmButtonText: "Xóa",
-                    cancelButtonText: "Hủy"
-                }).then((result) => {
-                    if (result.isConfirmed) {
-                        $.post("/Admin/DeleteProduct/" + id, function (res) {
-                            if (res.success) {
-                                Swal.fire("Đã xóa!", res.message, "success").then(() => {
-                                    location.reload();
-                                });
-                            } else {
-                                Swal.fire("Lỗi", res.message, "error");
-                            }
-                        });
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 </html>

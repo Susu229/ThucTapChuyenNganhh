@@ -1,14 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ThucTapChuyenNganhh.Models;
 
 namespace ThucTapChuyenNganhh.Controllers
 {
-    public class ContactController : Controller
+    public class CustomerController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-
     }
 }

@@ -200,55 +200,6 @@
                     </a>
                 </div>
             </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <i class="fa fa-table"></i> Danh sách sản phẩm
-                </div>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
-                                <tr>
-                                    <th>Mã SP</th>
-                                    <th>Tên sản phẩm</th>
-                                    <th>Giá</th>
-                                    <th>Trạng thái</th>
-                                    <th>Sửa/Xóa</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var p in Model)
-                                {
-                                    <tr>
-                                        <td>@p.Code</td>
-                                        <td>@p.Name</td>
-                                        <td>@p.Price.ToString("N0") đ</td>
-                                        <td>
-                                            @if (p.Status == "Còn hàng")
-                                            {
-                                                <span class="badge badge-success">Còn hàng</span>
-                                            }
-                                            else if (p.Status == "Sắp hết")
-                                            {
-                                                <span class="badge badge-warning text-dark">Sắp hết</span>
-                                            }
-                                            else
-                                            {
-                                                <span class="badge badge-danger">Hết hàng</span>
-                                            }
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></button>
-                                            <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button>
-                                        </td>
-                                    </tr>
-                                }
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
         </div>
         <!-- BẢNG DOANH THU -->
         <div class="card mb-4 mt-4 shadow-sm">
