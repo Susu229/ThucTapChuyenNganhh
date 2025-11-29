@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Koppee Admin Dashboard</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet" />
+    <link href="css/sb-admin.css" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+        }
+
+        .breadcrumb {
+            background: #f1f5f9;
+            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            margin-bottom: 1.25rem;
+        }
+
+            .breadcrumb a {
+                color: #3c50e0;
+                font-weight: 500;
+            }
+
+        .breadcrumb-item.active {
+            color: #94a3b8;
+        }
+
+        .dashboard-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 1.25rem;
+        }
+        .card-stat {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            border-radius: 15px;
+            padding: 1.5rem;
+            min-height: 110px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+            transition: all 0.2s ease;
+        }
+
+            .card-stat:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            }
+
+            .card-stat .icon {
+                font-size: 2.5rem;
+                opacity: 0.9;
+            }
+
+            .card-stat .details {
+                text-align: right;
+            }
+
+                .card-stat .details h5 {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+
+                .card-stat .details span {
+                    font-size: 0.9rem;
+                    opacity: 0.9;
+                }
+
+        .stat-blue {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+        }
+
+        .stat-yellow {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+        }
+
+        .stat-green {
+            background: linear-gradient(135deg, #10b981, #059669);
+        }
+
+        .stat-red {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+        }
+
+        /* ======= BẢNG DỮ LIỆU ======= */
+        .card-header {
+            background: #fff;
+            border-bottom: 1px solid #e5e7eb;
+            font-weight: 600;
+            color: #3c50e0;
+        }
+
+        table thead {
+            background: #f8fafc;
+        }
+
+        table td,
+        table th {
+            vertical-align: middle !important;
+            text-align: center;
+        }
+
+        .btn {
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" id="mainNav">
+        <a class="navbar-brand font-weight-bold text-primary" href="index.html">☕ Susu Admin</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+           
+            <!-- Logout -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link"
+                       asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-fw fa-home"></i> Trang Susu
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Admin" asp-action="Logout">
+                        <i class="fa fa-fw fa-sign-out"></i> Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Nội dung chính -->
+    <div class="content-wrapper">
+        <div class="container-fluid">
+
+            <div class="dashboard-title">Tổng quan hệ thống</div>
+
+            <div class="row mb-4">
+                <div class="col-xl-3 col-md-6 mb-3">
+                    <a href="/Admin/Messages" class="card-stat stat-blue" style="text-decoration:none;">
+                        <div class="icon"><i class="fa fa-envelope"></i></div>
+                        <div class="details">
+                            <h5>@ViewBag.TotalMessages Tin nhắn mới</h5>
+                            <span>@(ViewBag.TotalMessages > 0 ? "+100% so với hôm qua" : "0% (chưa có tin mới)")</span>
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-3">
+                    <a href="/Admin/Tasks" class="card-stat stat-yellow" style="text-decoration:none;">
+                        <div class="icon"><i class="fa fa-tasks"></i></div>
+                        <div class="details">
+                            <h5>11 Nhiệm vụ mới</h5>
+                            <span>Đang tiến hành</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-3">
+                    <a href="/Admin/Orders" class="card-stat stat-green" style="text-decoration:none;">
+                        <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="details">
+                            <h5>123 Đơn hàng</h5>
+                            <span>+5% trong tuần</span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-3">
+                    <a href="/Admin/Tickets" class="card-stat stat-red" style="text-decoration:none;">
+                        <div class="icon"><i class="fa fa-life-ring"></i></div>
+                        <div class="details">
+                            <h5>@ViewBag.TotalTickets Phiếu hỗ trợ</h5>                            <span>Giải quyết 8/13</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- BẢNG DOANH THU -->       
+        <div class="card mb-4 mt-4 shadow-sm">
+            <div class="card-header bg-white font-weight-bold text-primary d-flex align-items-center">
+                <i class="fa fa-line-chart mr-2"></i> Báo cáo doanh thu theo tháng
+            </div>
+            <div class="card-body">
+                <div class="chart-container" style="position: relative; height:300px; width:100%;">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            const ctx = document.getElementById('myChart');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Th1', 'Th2', 'Th3', 'Th4', 'Th5', 'Th6', 'Th7', 'Th8', 'Th9', 'Th10', 'Th11'],
+                    datasets: [{
+                        label: 'Doanh thu (triệu VNĐ)',
+                        data: [30, 35, 32, 38, 45, 42, 50, 48, 52, 60, 57],
+                        backgroundColor: '#3C50E0',
+                        borderRadius: 6
+                    }]
+                }
+            });
+        </script>
+    </div>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <script src="js/sb-admin.min.js"></script>
+</body>
+
+</html>

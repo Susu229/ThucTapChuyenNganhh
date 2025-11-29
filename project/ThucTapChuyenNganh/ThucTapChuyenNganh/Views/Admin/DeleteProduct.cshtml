@@ -1,0 +1,32 @@
+﻿@model ThucTapChuyenNganh.Models.Product
+
+<div class="container mt-4">
+
+    <h1 class="text-danger mb-4">XÁC NHẬN XOÁ SẢN PHẨM</h1>
+
+    <div class="card shadow p-4">
+        <h4>Bạn có chắc chắn muốn xoá sản phẩm này?</h4>
+        <hr />
+
+        <p><strong>Mã SP:</strong> @Model.Code</p>
+        <p><strong>Tên sản phẩm:</strong> @Model.Name</p>
+        <p><strong>Giá:</strong> @string.Format("{0:N0} đ", Model.Price)</p>
+        <p><strong>Trạng thái:</strong> @Model.Status</p>
+
+        <div class="mt-4 d-flex gap-3">
+
+            <form asp-action="ProductDelete" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="btn btn-danger btn-lg">
+                    <i class=""></i> Xóa sản phẩm
+                </button>
+            </form>
+
+            <a asp-controller="Admin" asp-action="Products" class="btn btn-secondary btn-lg">
+                <i class=""></i> Trở lại
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

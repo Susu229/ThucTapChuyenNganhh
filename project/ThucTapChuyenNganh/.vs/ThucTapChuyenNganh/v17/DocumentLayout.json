@@ -1,0 +1,610 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\models\\quanlycaphesucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\models\\quanlycaphesucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|d:\\th\u1EF1c t\u1EADp chuy\u00EAn ng\u00E0nh\\project\\thuctapchuyennganh\\thuctapchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B5928BA-031B-45F8-A188-F29C25964FFD}|ThucTapChuyenNganh\\ThucTapChuyenNganh.csproj|solutionrelative:thuctapchuyennganh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\Orders.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\Orders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T19:47:52.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\_ViewStart.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:43:04.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T19:06:42.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customers.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Customers.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\Customers.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Customers.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\Customers.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:43:05.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteProduct.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\DeleteProduct.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\DeleteProduct.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\DeleteProduct.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\DeleteProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T19:22:48.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T19:41:10.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:43:07.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Products.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\Products.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Products.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\Products.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:43:21.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reports.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Reports.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\Reports.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Reports.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\Reports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T19:48:15.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:43:00.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:50:17.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:42:57.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:42:55.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\About\\About.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\About\\About.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\About\\About.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\About\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:42:50.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuanLyCaPheSUContext.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Models\\QuanLyCaPheSUContext.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Models\\QuanLyCaPheSUContext.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Models\\QuanLyCaPheSUContext.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Models\\QuanLyCaPheSUContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:40:17.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Models\\Product.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Models\\Product.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:42:37.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:07:12.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\TestimonialController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:42:28.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\ServiceController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:42:20.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\ReservationController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:42:13.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:42:08.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:00:58.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:41:54.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:41:44.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:15:06.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:41:29.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Controllers\\AboutController.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:41:19.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAADwv1MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:46:49.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Program.cs",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Program.cs",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Program.cs",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:10:24.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\appsettings.json",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\appsettings.json",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\appsettings.json",
+              "RelativeToolTip": "ThucTapChuyenNganh\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T18:10:11.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:10:06.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:10:04.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:09:27.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:09:08.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThucTapChuyenNganh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c T\u1EADp Chuy\u00EAn Ng\u00E0nh\\project\\ThucTapChuyenNganh\\ThucTapChuyenNganh\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ThucTapChuyenNganh\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADUBAAAAAAAAAAAgwA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T18:08:44.971Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

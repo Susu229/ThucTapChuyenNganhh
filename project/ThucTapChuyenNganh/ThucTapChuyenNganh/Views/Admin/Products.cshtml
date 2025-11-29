@@ -1,0 +1,115 @@
+﻿@model IEnumerable<ThucTapChuyenNganh.Models.Product>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SU Admin - Sản phẩm</title>
+
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/sb-admin.css" rel="stylesheet" />
+
+    <style>
+        .table tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+        .btn-sm {
+            padding: 5px 8px;
+            border-radius: 6px;
+        }
+
+        .big-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body class="container mt-4">
+
+    <div class="mb-3">
+        <h1 class="big-title text-dark">DANH SÁCH SẢN PHẨM</h1>
+
+        <a href="/Admin/AddProduct" class="btn btn-success btn-lg">
+            <i class="fa fa-plus"></i> Thêm sản phẩm
+        </a>
+
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success mt-3">
+                @TempData["Success"]
+            </div>
+        }
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+
+                <table class="table table-bordered text-center align-middle">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã SP</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @{
+                            int stt = 1;
+                        }
+
+                        @foreach (var p in Model)
+                        {
+                            <tr>
+                                <td>@stt</td>
+
+                                <td>@p.Code</td>
+                                <td>@p.Name</td>
+                                <td>@string.Format("{0:N0} đ", p.Price)</td>
+
+                                <td>
+                                    @if (p.Status == "Còn hàng")
+                                    {
+                                        <span class="badge bg-success text-white">Còn hàng</span>
+                                    }
+                                    else if (p.Status == "Sắp hết")
+                                    {
+                                        <span class="badge bg-warning text-dark">Sắp hết</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger text-white">Hết hàng</span>
+                                    }
+                                </td>
+
+                                <td>
+                                    <a href="/Admin/EditProduct/@p.Id" class="btn btn-sm btn-primary">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+
+                                    <a href="/Admin/DeleteProduct/@p.Id" class="btn btn-sm btn-danger">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+
+                            stt++;
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
